@@ -22,7 +22,7 @@ function nEvenNums(arr,num){
 return arr.filter(n => n %2 ===0).slice(-num)
 }
 
-//const nEvenNums =(arr,num)=>arr.filter(n => n %2 ===0).slice(-num)
+//const nEvenNums =(arr,num)=>arr.filter(n => n %2 ===0).slice(-num) new
 
 console.log(nEvenNums([1, 2, 3, 4, 5, 6, 7, 8, 9], 3),'[4, 6, 8]')
 console.log(nEvenNums([-22, 5, 3, 11, 26, -6, -7, -8, -9, -8, 26], 2) , '[-8, 26]')
